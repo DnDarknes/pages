@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="estilo/estiloFaleConosco.css" />
+  </head>
+  <body>
+    <header id="cabecalhoMenu">
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="Detonados.html">Detonado</a>
+          </li>
+          <li>
+            <a href="Wiki.html">Wiki</a>
+          </li>
+          <li>
+            <a href="Sobrenos.html">Sobre nós</a>
+          </li>
+            <li>
+              <a href="FaleConosco.html"><span>Fale Conosco</span></a>
+          </li>
+          <li>
+            <a href="ReportBug.html">Relatar Bug</a>
+          </li>
+          <li>
+            <a href="Noticias.html">Remake</a>
+          </li>
+          <li>
+            <a href="Curiosidades.html">Curiosidades</a>
+          </li>
+        </ul>
+        <div id="botao">
+          <a href="FaleConosco.html#conteudoprinci"
+            ><img src="imagens/down arrow.png"/></a>
+        </div>
+      </nav>
+    </header>
+    <div id="imgparallax1"></div>
+    <main id="conteudoprinci">
+      <h1>Fale Conosco</h1>
+      <h2>Formulário</h2>
+      <form action="https://formspree.io/f/moqpnyjr" method="POST">
+        <div>
+          <label for="">Nome:</label>
+          <input type="text" name="Nome" class="nome" placeholder="Digite seu nome" required="required">
+        </div>
+        <br>
+        <div>
+          <label for="">Email:</label>
+          <input type="text" name="Email" class="email" placeholder="Digite seu Email" required="required">
+        </div>
+        <br>
+        <div>
+          <label for="">Selecione sua cidade:</label>
+          <select name="cidade" required="required" class="selecione">
+            <option value="" selected="selected">Selecione</option>
+            <option value="São José de Piranhas-PB">São José de Piranhas-PB</option>
+            <option value="Cajazeiras-PB">Cajazeiras-PB</option>
+            <option value="Sousa-PB">Sousa-PB</option>
+            <option value="Monte Horebe-PB">Monte Horebe-PB</option>
+            <option value="Bonito de Santa Fé-PB">Bonito de Santa Fé-PB</option>
+            <option value="Ipaumirim-CE">Ipaumirim-CE</option>
+            <option value="Cachoeira dos Índios-PB">Cachoeira dos Índios-PB</option>
+            <option value="João Pessoa-PB">João Pessoa-PB</option>
+          </select>
+          <br>
+          <br>
+          <div>
+            <label for="">Informe seu Sexo:</label>
+              <label for="sexo1">
+                <input name="sexo" calss="sexo1 "value="masculino" type="radio" id="sexo1"> Masculino
+              </label>
+              <label for="sexo2">
+                  <input name="sexo" class="sexo2" value="feminino" type="radio" id="sexo2"> Feminino
+              </label>
+              <label for="sexo3">
+                <input name="sexo" class="sexoOutro" value="outro" type="radio" id="sexo2"> Outro
+            </label>
+        </div>
+        <div>
+          <br>
+            <label for="">Nos mande uma Mensagem:</label><br>
+            <textarea name="mensagem" cols="60" rows="10" placeholder="Escreva sua mensagem" required="required"></textarea>
+        </div>
+        <br>
+        <div>
+          <button type="submit">Enviar Formulário</button>
+        </div>
+      </form>
+    </main>
+    <footer id="rodape">
+      <div id="controdape">
+        <p>
+          Desenvolvedores: <a href="Sobrenos.html#conteudoprinci">José Farley Sousa da Silva</a> |
+          <a href="Sobrenos.html#conteudoprinci">João Victor Reis Angelim</a> |
+          <a href="Sobrenos.html#conteudoprinci">Bruno Dutra</a> |
+          <a href="Sobrenos.html#conteudoprinci" title="Mais informações">Matheus Nunes Miguel
+          </a>
+        </p>
+        <p>
+          O nosso site abrange conteúdos relacionados a resident evil 4,
+          escolhemos esse jogo, pois todos os membros da equipe já tinham o
+          jogado e tinham conhecimento sobre a história e a franquia do jogo. O
+          intuito do site é passar algumas informações sobre o game e aplicar os
+          conhecimentos que adquirimos durante toda a disciplina.
+        </p>
+
+        <p id="data">Data de publicação: 17 / 12 / 2020</p>
+      </div>
+    </footer>
+  </body>
+</html>

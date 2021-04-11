@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Relatar Bug</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estiloReportBug.css" />
+  </head>
+
+  <body>
+    <header id="cabecalhoMenu">
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="Detonados.html">Detonado</a>
+          </li>
+          <li><a href="Wiki.html">Wiki</a></li>
+          <li><a href="Sobrenos.html">Sobre nós</a></li>
+          <li><a href="FaleConosco.html">Fale Conosco</a></li>
+          <li>
+            <a href="ReportBug.html"><span>Relatar Bug</span></a>
+          </li>
+          <li>
+            <a href="Noticias.html">Remake</a>
+          </li>
+          <li>
+            <a href="Curiosidades.html">Curiosidades</a>
+          </li>
+        </ul>
+        <div id="botao">
+          <a href="ReportBug.html#conteudoprinci"
+            ><img src="imagens/down arrow.png"/></a>
+        </div>
+      </nav>
+    </header>
+    <div id="imgparallax1"></div>
+    <main id="conteudoprinci">
+      <h1>Relatar Bug</h1>
+      <h2>Descreva o Bug</h2>
+      <form action="https://formspree.io/f/xgeplroq" method="POST" class="formu">
+          <div>
+            <label for="" class="seusDados">Seus Dados:</label>
+          </div>
+          <br>
+          <div>
+              <label for="">Nome:</label>
+              <input type="text" name="Nome" class="nome" placeholder="Digite seu nome" required="required">
+            </div>
+            <br>
+            <div>
+              <label for="">Email:</label>
+              <input type="text" name="Email" class="email" placeholder="Digite seu Email" required="required">
+            </div>
+            <br>
+            <div>
+              <label for="">Selecione sua cidade:</label>
+              <select name="cidade" required="required" class="selecione">
+                <option value="" selected="selected">Selecione</option>
+                <option value="São José de Piranhas-PB">São José de Piranhas-PB</option>
+                <option value="Cajazeiras-PB">Cajazeiras-PB</option>
+              </select>
+              <br>
+              <br>
+              <div>
+                <label for="">Informe seu Sexo:</label>
+                  <label for="sexo1">
+                    <input name="sexo" calss="sexo1 "value="masculino" type="radio" id="sexo1">Masculino
+                  </label>
+                  <label for="sexo2">
+                      <input name="sexo" class="sexo2" value="feminino" type="radio" id="sexo2">Feminino
+                  </label>
+                  <label for="sexo3">
+                    <input name="sexo" class="sexoOutro" value="outro" type="radio" id="sexo2">Outro
+                </label>
+            </div>
+            <br>
+            <br>
+        <div>
+          <label for="" class="bugsComuns">Problemas mais comuns:</label>
+        </div>
+        <div>
+          <br>
+          <label for="">O site demora muito pra carregar :</label>
+          <input type="checkbox" name="DemoraCarregamento" value="possui" class="problema1">
+          
+        </div>
+        <div>
+          <label for="">Links sem funcionalidade :</label>
+          <input type="checkbox" name="LinksQuebrados" value="possui" class="problema2">
+        </div>
+        <div>
+          <label for=""">Imagens não estão carregando :</label>
+          <input type="checkbox" name="CarregamentoImage" value="possui" class="problema3">
+        </div>
+        <div>
+          <br>
+          <label for=""> Escreva como ocorre o problema:</label>
+          <br />
+          <br />
+          <textarea
+            name="Descrever problema"
+            cols="60"
+            rows="10"
+            placeholder="Escreva aqui"
+            required="required"
+          ></textarea>
+        </div>
+        <div>
+          <button type="submit">Enviar Relatório</button>
+        </div>
+      </form>
+    </main>
+    <footer id="rodape">
+      <div id="controdape">
+        <p>
+          Desenvolvedores: <a href="Sobrenos.html#conteudoprinci">José Farley Sousa da Silva</a> |
+          <a href="Sobrenos.html#conteudoprinci">João Victor Reis Angelim</a> |
+          <a href="Sobrenos.html#conteudoprinci">Bruno Dutra</a> |
+          <a href="Sobrenos.html#conteudoprinci" title="Mais informações">Matheus Nunes Miguel
+          </a>
+        </p>
+        <p>
+          O nosso site abrange conteúdos relacionados a resident evil 4,
+          escolhemos esse jogo, pois todos os membros da equipe já tinham o
+          jogado e tinham conhecimento sobre a história e a franquia do jogo. O
+          intuito do site é passar algumas informações sobre o game e aplicar os
+          conhecimentos que adquirimos durante toda a disciplina.
+        </p>
+
+        <p id="data">Data de publicação: 17 / 12 / 2020</p>
+      </div>
+    </footer>
+  </body>
+</html>
